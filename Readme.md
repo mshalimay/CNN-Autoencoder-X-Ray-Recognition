@@ -1,6 +1,6 @@
 # Chest-X-Ray Compression and Classification with Deep Learning
 This repo implements Convolutional Autoencoders and CNNs for compression and disease identification of chest-x-ray images, using `TensorFlow`.
-The dataset can be found in this [link](https://www.kaggle.com/datasets/jtiptj/chest-xray-pneumoniacovid19tuberculosis)
+The dataset can be found in this [link](https://www.kaggle.com/datasets/jtiptj/chest-xray-pneumoniacovid19tuberculosis).
 
 # Codebase description
 - `./Autoencoder`: implementation of the `Autoencoder` class using `TensorFlow`
