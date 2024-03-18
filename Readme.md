@@ -8,7 +8,7 @@ The dataset can be found in this [link](https://www.kaggle.com/datasets/jtiptj/c
 - Why compression?
   - Original images are large (~2-4MB), meaning high storage costs, long training time and, importantly, **long inference times**. Therefore, finding a compressed representation while retaining critical diagnostic information is key since:
     - Actual infrastructure may not have the resources necessary for storing big data and train/re-train expensive models.
-    - Fast inference time is key, as this one of the main advantages of using an automatic tool for disease identification.
+    - Fast inference time is key, as this is one of the main advantages of using an automatic tool for disease identification.
   
 
 # Autoeconder model description
