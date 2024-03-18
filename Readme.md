@@ -2,12 +2,19 @@
 This repo implements Convolutional Autoencoders and CNNs for compression and disease identification of chest-x-ray images, using `TensorFlow`.
 The dataset can be found in this [link](https://www.kaggle.com/datasets/jtiptj/chest-xray-pneumoniacovid19tuberculosis).
 
+# Problem description
+- The dataset provides Chest X-Ray data from individuals with Pneumonia, COVID19, Turberculosis and healthy individuals.
+-  Objective: implement a classifier for fast and correct diagnosis of a patient's condition given a Chest X-Ray image.
+- Why compression?
+  - Original images are large (~2-4MB), meaning high storage costs, long training time and, importantly, **long inference times**. Therefore, finding a compressed representation while retaining critical diagnostic information is key since:
+    - Actual infrastructure may not have the resources necessary for storing big data and train/re-train expensive models.
+    - Fast inference time is key, as this one of the main advantages of using an automatic tool for disease identification.
+  
+
 # Autoeconder model description
 Autoencoders consists of neural networks that encode input images into a lower-dimensional representation and reconstruct the image from this compressed form, aiming to retain key features while minimizing reconstruction error, leading to a improvement in storage and computational efficiency
 
-Why compression?
-- Original images are large (~2-4MB), meaning high storage costs, long training time and, importantly, long inference times. 
-- Therefore, finding a compressed representation while retaining critical diagnostic information is key for swift diagnosis, reducing storage costs, and to allow retraining as more datas comes in.
+
 
 ## Architechture
 The image below shows the convolutional autoencoder architechture adopted. 
