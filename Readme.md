@@ -75,9 +75,9 @@ The images below shows a sample of original (redimensioned) images vs the compre
 - This showcases the method is capturing relevant information for diagnostic while also significantly improving storage and computational efficiency.
 
 <img src="./assets/images/atc-orig-vs-predict-Normal.png" width="48%"/>
-<img src="./assets/images/atc-orig-vs-predict-Covid19.png" alt="atc-orig-vs-predict-COVID19" width="48%"/>
-<img src="./assets/images/atc-orig-vs-predict-pneumonia.png" alt="atc-orig-vs-predict-COVID19" width="48%"/>
-<img src="./assets/images/atc-orig-vs-predict-turberculosis.png" alt="atc-orig-vs-predict-COVID19" width="48%"/>
+<img src="./assets/images/atc-orig-vs-predict-Covid19.png"  width="48%"/>
+<img src="./assets/images/atc-orig-vs-predict-Pneumonia.png"  width="48%"/>
+<img src="./assets/images/atc-orig-vs-predict-Turberculosis.png" width="48%"/>
 
 ## Disease identification with CNNs
 The CNN model was trained and tested on two datasets:
