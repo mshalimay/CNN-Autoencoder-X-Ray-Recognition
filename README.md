@@ -4,7 +4,11 @@ The dataset can be found in this [link](https://www.kaggle.com/datasets/jtiptj/c
 
 # Short Problem description
 - The dataset provides Chest X-Ray data from individuals with Pneumonia, COVID19, Turberculosis and healthy individuals.
--  Objective: implement a classifier for fast and correct diagnosis of a patient's condition given a Chest X-Ray image.
+- Objective: implement a classifier for fast and correct diagnosis of a patient's condition given a Chest X-Ray image.
+- Why an atomatic recognition tool?
+  - Useful and unbiased auxiliary tool for a Doctor's evaluation of patients health.
+  - Fast diagnosis in emergencies and epidemics (e.g.: COVID19 epidemics).
+  - Possible stand-in in cases of lacking human resources (e.g.: during COVID19 epidemics).
 - Why compression?
   - Original images are large (~2-4MB), meaning high storage costs, long training time and, importantly, **long inference times**. Therefore, finding a compressed representation while retaining critical diagnostic information is key since:
     - Actual infrastructure may not have the resources necessary for storing big data and train/re-train expensive models.
