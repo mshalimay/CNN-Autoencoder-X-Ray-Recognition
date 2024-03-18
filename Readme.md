@@ -2,14 +2,6 @@
 This repo implements Convolutional Autoencoders and CNNs for compression and disease identification of chest-x-ray images, using `TensorFlow`.
 The dataset can be found in this [link](https://www.kaggle.com/datasets/jtiptj/chest-xray-pneumoniacovid19tuberculosis).
 
-# Codebase description
-- `./Autoencoder`: implementation of the `Autoencoder` class using `TensorFlow`
-- `./utils`: functions for parallel image resizing, image loading, grayscale conversion, visualization, etc
-- `Data`, `Data_processed`, `Data_compressed`: placeholder for the containers of original, preprocessed and compressed images.
-- `analysis.ipynb`: simple examples on how to navigate the data folder structure and visualize images
-- `autoencoder.ipynb`: shows how to train and use the `Autoencoder` for image compression
-- `report.ipynb`: generates the results in `Report.md`
-
 # Autoeconder model description
 Autoencoders consists of neural networks that encode input images into a lower-dimensional representation and reconstruct the image from this compressed form, aiming to retain key features while minimizing reconstruction error, leading to a improvement in storage and computational efficiency
 
@@ -120,6 +112,16 @@ Below figures show the confusion matrix and overall performance metrics for clas
 <div style="text-align: center;">
     <img src="./assets/images/image-4.png" alt="None" width="60%" />
 </div>
+
+
+
+# Codebase description
+- `./Autoencoder`: implementation of the `Autoencoder` class using `TensorFlow`
+- `./utils`: functions for parallel image resizing, image loading, grayscale conversion, visualization, etc
+- `Data`, `Data_processed`, `Data_compressed`: placeholder for the containers of original, preprocessed and compressed images.
+- `analysis.ipynb`: simple examples on how to navigate the data folder structure and visualize images
+- `autoencoder.ipynb`: shows how to train and use the `Autoencoder` for image compression
+- `report.ipynb`: generates the results in `Report.md`
 
 
 # References
