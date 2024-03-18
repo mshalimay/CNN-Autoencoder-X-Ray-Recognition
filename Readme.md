@@ -1,5 +1,6 @@
 # Chest-X-Ray Compression and Classification with Deep Learning Models
 This repo implements Convolutional Autoencoders and CNNs for compression and disease identification of chest-x-ray images, using `TensorFlow`.
+The dataset can be found in this [link](https://www.kaggle.com/datasets/jtiptjchest-xray-pneumoniacovid19tuberculosis)
 
 # Codebase description
 - `./Autoencoder`: implementation of the `Autoencoder` class using `TensorFlow`
@@ -122,7 +123,26 @@ Below figures show the confusion matrix and overall performance metrics for clas
 
 
 # References
-Data source: https://www.kaggle.com/datasets/jtiptjchest-xray-pneumoniacovid19tuberculosis
+[1] Faden, H., & El-Sharif, N. (2019). The global and regional prevalence of community-acquired pneumonia in children under five in 2010. InTechOpen.
+
+[2] Kaggle Dataset: “Chest X-ray - Pneumonia, COVID-19, Tuberculosis.” Retrieved from https://www.kaggle.com/datasets/jtiptj/chest-xray-pneumoniacovid19tuberculosis
+
+[3] Rudan, I., et al. (2008). Epidemiology and etiology of childhood pneumonia. Bulletin of the World Health Organization, 86(5), 408-416.
+
+[4] Fauci, A. S., et al. (2020). Covid-19—Navigating the Uncharted. New England Journal of Medicine, 382(13), 1268-1269.
+
+[5] Nandi, D., Ashour, A. S., Samanta, S., Chakraborty, S., Salem, M. A. M., & Dey, N. (Year of publication). Principal component analysis in medical image processing: a study. International Journal of Image Mining, 1(1).
+
+[6] Maier, A., Syben, C., Lasser, T., & Riess, C. (2019). A gentle introduction to deep learning in medical image processing. Zeitschrift für Medizinische Physik, 29(2), 86-101.
+
+[7] Sarvamangala, D.R., Kulkarni, R.V. Convolutional neural networks in medical image understanding: a survey. Evol. Intel. 15, 1–22 (2022).
+
+[8] E. Miranda, M. Aryuni and E. Irwansyah, “A survey of medical image classification techniques,” 2016 International Conference on Information Management and Technology (ICIMTech), 2016, pp. 56-61.
+
+[9] Jamil, S., Piran, M. J., Rahman, M., & Kwon, O.-J. (2023). Learning-driven lossy image compression: A comprehensive survey. Engineering Applications of Artificial Intelligence, 123(Part B), 106361.
+
+[10] Masters, D., & Luschi, C. (2018). Revisiting small batch training for deep neural networks. arXiv preprint arXiv:1804.07612.
+
 
 
 
